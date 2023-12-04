@@ -1,0 +1,132 @@
+#partf{
+    background-image: linear-gradient(to right, rgb(201, 66, 111),rgb(236, 102, 180));
+    height: 700px;
+   
+}
+#f{
+    display:inline-block;
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    left:50px;
+    color:white;
+    text-shadow:3px 3px black;
+}
+#s{
+    display:inline-block;
+    font-size: 50px;
+    position: absolute;
+    top: 30px;
+    left:80px;
+    color: white;
+    text-shadow:3px 3px black;
+}
+#right{
+    display: grid;
+    grid-template-columns: repeat(4,80px);
+    justify-content: right;
+    padding: 40px 100px;
+    color: white;
+    cursor: pointer;
+}
+#parts{
+    margin: 50px 100px;
+    background-color:white;
+    height: 700px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 10px 15px grey;
+}
+#photo img{
+    height: 600px;
+    width:550px;
+    margin: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#info{
+    padding:100px 50px;
+    font-size: 20px;
+}
+
+span{
+    font-size: 50px;
+    font-weight: 100;
+}
+#list{
+    display:grid;
+    grid-template-rows: repeat(4,40px);
+    margin: 50px 10px;
+}
+#list:hover{
+    cursor: pointer;
+}
+.items i{
+    color:rgb(236, 102, 180);
+    padding: 10px;
+}
+.items{
+    color:grey;
+}
+#social{
+    margin:0 15px;
+}
+#social i{
+    padding:10px;
+    background-color:lightgray;
+    color:white;
+    font-size: 25px;
+    height:25px;
+    width:25px;
+    border:2px solid white;
+    border-radius: 8px;
+}
+#social i:hover{
+   background-image:linear-gradient(to right, rgb(201, 66, 111),rgb(236, 102, 180));
+   cursor: pointer;
+}
+#second{
+    background-color: lightgrey;
+    height: 250px;
+    position: relative;
+    z-index: -1;
+    padding:250px;
+}
+#second p{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+}
+#skillcont{
+    display:flex;
+    margin:30px;
+    justify-content: center;
+}
+.skill{
+    border:2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin:40px;
+    box-shadow: 10px 10px 15px grey;
+}
+.skill:hover{
+    background-image:linear-gradient(to right, rgb(201, 66, 111),rgb(236, 102, 180));
+}
+.skill img{
+    margin:20px;
+    height:200px;
+    width:200px;
+}
+#about{
+    height:250px;
+    background-image:linear-gradient(to right, rgb(201, 66, 111),rgb(236, 102, 180));
+    color:white;
+    padding:50px;
+    font-size: 30px;
+    font-family: Agbalumo;
+}
+#about{
+    font-weight: 400;
+}
